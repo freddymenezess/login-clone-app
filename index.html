@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login page for Instagram clone.">
+    <link rel="shortcut icon" href="public/favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="src/styles/style.css?v=2">
+    <title>Instagram</title>
+</head>
+<body>
+    <main>
+        <section class="controler">
+            <div class="image-form">
+                <img src="public/assets/teenagers.png" alt="Teenagers taking selfies">
+            </div>
+            <div class="form-area">
+                <div class="logo-instagram">
+                    <img src="../public/assets/logo.png" alt="Logo Instagram">
+                </div>
+                <form action="login.php" method="get" autocomplete="off">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="floatingInput" name="username" placeholder="" required>
+                        <label for="floatingInput">Telefone, nome de usuário ou email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="" required>
+                        <label for="password">Senha</label>
+                        <button type="button" id="togglePassword">Mostrar</button>
+                    </div>
+                    <button type="submit">Entrar</button>
+                </form>
+                <span class="separador">OU</span>
+                <div class="social-media">
+                    <span class="facebook-svg">
+                        <img src="../public/assets/facebook.svg" alt="Facebook logo">
+                    </span>
+                    <a href="facebook.com">Entrar com o facebook</a>
+                </div>
+                <div class="forget-area">
+                    <a href="#" class="forget">Esqueceu a senha?</a>
+                </div>
+                <div class="create-account">
+                    <p class="inline">Não tem uma conta?</p>
+                    <a href="#" class="create inline">Cadastre-se</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Meta</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Carreiras</a></li>
+            <li><a href="#">Ajuda</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Termos</a></li>
+            <li><a href="#">Localizações</a></li>
+            <li><a href="#">Instagram Lite</a></li>
+            <li><a href="#">Meta AI</a></li>
+            <li><a href="#">Artigos da Meta AI</a></li>
+            <li><a href="#">Threads</a></li>
+            <li><a href="#">Uploads de contactos e não usuários</a></li>
+            <li><a href="#">Meta Verified</a></li>
+        </ul>
+        <div class="end-footer">
+            <div class="language inl">
+                <label for="language">Idioma</label>
+                <select name="language" id="language">
+                    <option value="pt-br">Português (Brasil)</option>
+                    <option value="en-us">English (US)</option>
+                    <option value="es-es">Español (España)</option>
+                    <option value="fr-fr">Français (France)</option>
+                    <option value="de-de">Deutsch (Deutschland)</option>
+                </select>
+            </div>
+            <div class="end-text">
+                <p>&copy 2023 Instagram from Meta</p>
+            </div>
+        </div>
+    </footer>
+    <script src="src/script/script.js"></script>
+</body>
+</html>
