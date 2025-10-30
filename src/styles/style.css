@@ -89,7 +89,8 @@ form .form-control {
     color: #dbdbdb;
 }
 
-form input[type="password"], input[type="text"] {
+form input[type="password"], 
+form input[type="text"] {
     padding-right: 70px;
 }
 
